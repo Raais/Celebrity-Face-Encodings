@@ -24,3 +24,5 @@ for file in os.listdir(encdir):
         print("Matched: " + file)
         break
 ```
+
+You can generate more encodings for photos placed in /images with [gen.py](https://github.com/Raais/100CelebsFaceEncodings/blob/main/gen.py)
