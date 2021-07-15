@@ -15,7 +15,7 @@ img = face_recognition.load_image_file("test.jpg")
 fenc = face_recognition.face_encodings(img)[0]
 
 for file in os.listdir(encdir):
-    denf = os.path.join(encdir,file)
+    denf = os.path.join(encdir, file)
     denc = np.loadtxt(denf)
 
     res = face_recognition.compare_faces(
