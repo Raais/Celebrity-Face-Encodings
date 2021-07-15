@@ -9,9 +9,7 @@ face_encoding = numpy.loadtxt(filename)
 ## Example
 
 ```python
-dir = os.path.dirname(__file__)
 encdir = os.path.join(dir,'encodings')
-imgdir = os.path.join(dir,'images')
 
 img = face_recognition.load_image_file("test.jpg")
 fenc = face_recognition.face_encodings(img)[0]
