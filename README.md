@@ -1,4 +1,4 @@
-This repository contains face encodings of 100 celebrities ready for use with [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition). You are most welcome to expand/contribute.
+This repository contains face encodings of 100 celebrities ready for use with [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition). You're most welcome to expand/contribute.
 
 ## Usage
 
