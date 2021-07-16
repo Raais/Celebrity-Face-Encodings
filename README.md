@@ -3,7 +3,7 @@ This repository contains face encodings of 100 celebrities ready for use with [a
 ## Usage
 
 ```python
-face_encoding = numpy.loadtxt("file")
+face_encoding = numpy.loadtxt("filename")
 ```
 
 ## Example
